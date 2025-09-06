@@ -38,11 +38,25 @@ If not, add it with count 1.
 - How I verified correctness (tests, sample data):
 
 # AI Use Log Rosalind #6
-- Tool/model & version:
-- What I asked for:
-- Snippet of prompt(s):
-- What I changed before committing:
-- How I verified correctness (tests, sample data):
+- Tool/model & version: Chat GPT 5
+- What I asked for: Using "count" in Python, assist me to solve this by Return: Four integers (separated by spaces) counting the respective number of times that the symbols 'A', 'C', 'G', and 'T' occur in s
+.
+- Snippet of prompt(s): def run():
+    # Option 1 — read from a file named 'rosalind_dna.txt' in the same folder:
+    # with open("rosalind_dna.txt", "r") as f:
+    #     s = f.read().replace("\n", "").strip()
+
+    # Option 2 — paste your DNA string directly here:
+    s = input().strip()  # works with Rosalind’s stdin too
+
+    A = s.count('A')
+    C = s.count('C')
+    G = s.count('G')
+    T = s.count('T')
+
+    print(A, C, G, T)
+- What I changed before committing: This was then converted to a file doc to be uploaded easier
+- How I verified correctness (tests, sample data): I then ran this with the orginal data set to ensure the code was correct
 
 - Tool/model & version:
 - What I asked for:
