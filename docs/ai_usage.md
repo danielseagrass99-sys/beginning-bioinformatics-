@@ -65,9 +65,17 @@ If not, add it with count 1.
 - How I verified correctness (tests, sample data):
 
 # AI Use Log Rosalind #7
-- Tool/model & version:
-- What I asked for:
-- Snippet of prompt(s):
+- Tool/model & version:ChatGPT 5
+- What I asked for: Help me understand the code for this problem with step by step instructions
+- Snippet of prompt(s): Save your input (the DNA string) in a file, e.g. input.txt, then run:
+
+python transcribe.py < input.txt
+
+
+Or paste directly after running:
+
+python transcribe.py
+# paste DNA here, then press Ctrl+D (macOS/Linux) or Ctrl+Z then Enter (Windows)
 - What I changed before committing:
 - How I verified correctness (tests, sample data):
 
@@ -80,7 +88,23 @@ If not, add it with count 1.
 
 # AI Use Log Rosalind #9
 - Tool/model & version:
-- What I asked for:
-- Snippet of prompt(s):
-- What I changed before committing:
+- What I asked for: How do I run this sequence in Python and how do I input the data into the code
+- Snippet of prompt(s): Option 1: Input from a FASTA file (recommended for Rosalind)
+
+Open a text editor.
+
+Paste your dataset, for example:
+
+>Rosalind_6488
+GAATGTAGGGCCAATTCTGCCTGATTTGACTGGTCGTGGTAACTGAGCCCTTCGCTGCAA
+...
+>Rosalind_5335
+AATGAATTTTTACTAGTATAGCAAGCGCCTGAACCAAGGTGAGCATCGTTCAGCTGACCC
+...
+
+
+Save it as input.fasta in the same folder as gc_content.py.
+
+Run:
+- What I changed before committing: I saved the data set as a file and then uploaded it following the instructions 
 - How I verified correctness (tests, sample data):
