@@ -86,7 +86,7 @@ python transcribe.py
 - What I changed before committing:
 - How I verified correctness (tests, sample data):
 
-# AI Use Log Rosalind #9
+# AI Use Log Rosalind #9 ChatGPT 5
 - Tool/model & version:
 - What I asked for: How do I run this sequence in Python and how do I input the data into the code
 - Snippet of prompt(s): Option 1: Input from a FASTA file (recommended for Rosalind)
