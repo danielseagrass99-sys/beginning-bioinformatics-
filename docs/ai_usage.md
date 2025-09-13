@@ -108,3 +108,24 @@ Save it as input.fasta in the same folder as gc_content.py.
 Run:
 - What I changed before committing: I saved the data set as a file and then uploaded it following the instructions 
 - How I verified correctness (tests, sample data):
+
+# AI Use Log Rosalind #10
+- Tool/model & version:
+- What I asked for:
+- Snippet of prompt(s):
+- What I changed before committing:
+- How I verified correctness (tests, sample data):
+
+- # AI Use Log Rosalind #11
+- Tool/model & version:
+- What I asked for:
+- Snippet of prompt(s):
+- What I changed before committing:
+- How I verified correctness (tests, sample data):
+
+- # AI Use Log Rosalind #12
+- Tool/model & version:
+- What I asked for:
+- Snippet of prompt(s):
+- What I changed before committing:
+- How I verified correctness (tests, sample data):
